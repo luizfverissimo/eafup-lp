@@ -1,8 +1,28 @@
 import Head from 'next/head'
+import { Navbar } from '../components/Navbar';
+import config from '../config/config.md'
 
-export default function Home() {
+
+export default function Home({title}) {
   return (
-    <h1 className='text-blue-500'>Olá Mundão</h1>
-  )
+    <>
+    <Head>
+      <title>{title}</title>
+    </Head>
 
+    <Navbar/>
+
+    </>
+  )
+}
+
+
+export async function getStaticProps() {
+  const {html, attributes: { title }} = config
+
+  return {
+    props: {
+      title
+    }
+  };
 }
