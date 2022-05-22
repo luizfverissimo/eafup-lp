@@ -1,0 +1,74 @@
+{
+  "title": "EAFUP 2022",
+  "eventDate": "Dias 13 e 14 de outubro de 2022",
+  "registerDate": "Inscrições até dia 07/10",
+  "subscriptionLink": "https://docs.google.com/forms/d/e/1FAIpQLSdOvVMD0v_prUhA-1s36YHZvb3OxNj54wQdS-KcpHaW9paEYQ/viewform?embedded=true",
+  "isCertificatesOpen": false,
+  "certificatesLink": "https://1drv.ms/u/s!Ah4VKOGMPB8ojfd7tAlVqkDRzjmyoQ?e=QxHUDb",
+  "eventAgenda": [
+    {
+      "date": "13 de outubro",
+      "presentations": [
+        {
+          "hour": "19h",
+          "presentationTitle": "A importância do farmacêutico na produção de medicamentos",
+          "speaker": "Prof. Dr. Fulano de Tal"
+        },
+        {
+          "hour": "20h\n30",
+          "presentationTitle": "A importância do farmacêutico na produção de medicamentos",
+          "speaker": "Prof. Dr. Fulano de Tal"
+        },
+        {
+          "hour": "20h\n30",
+          "presentationTitle": "A importância do farmacêutico na produção de medicamentos",
+          "speaker": "Prof. Dr. Fulano de Tal"
+        }
+      ]
+    },
+    {
+      "date": "14 de outubro",
+      "presentations": [
+        {
+          "hour": "19h",
+          "presentationTitle": "A importância do farmacêutico na produção de medicamentos",
+          "speaker": "Prof. Dr. Fulano de Tal"
+        },
+        {
+          "hour": "20h\n30",
+          "presentationTitle": "A importância do farmacêutico na produção de medicamentos",
+          "speaker": "Prof. Dr. Fulano de Tal"
+        }
+      ]
+    }
+  ],
+  "speakers": [
+    {
+      "img": "/speaker-placeholder.jpeg",
+      "name": "Prof. Dr. Fulano de Tal",
+      "resume": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tortor nibh pulvinar etiam enim dignissim bibendum. Tincidunt eget sed vel facilisis. Orci nascetur faucibus quam aliquet enim. Facilisi vulputate vestibulum diam ligula mauris urna, metus vel elementum. Blandit tincidunt ut enim, feugiat cursus tellus volutpat ac ut."
+    },
+    {
+      "img": "/speaker-placeholder.jpeg",
+      "name": "Prof. Dr. Fulano de Tal 2",
+      "resume": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tortor nibh pulvinar etiam enim dignissim bibendum. Tincidunt eget sed vel facilisis. Orci nascetur faucibus quam aliquet enim. Facilisi vulputate vestibulum diam ligula mauris urna, metus vel elementum. Blandit tincidunt ut enim, feugiat cursus tellus volutpat ac ut."
+    }
+  ],
+  "organization": [
+    {
+      "img": "/lfv.jpeg",
+      "name": "Prof. Dr. Luiz Fernando Veríssimo",
+      "resume": "Coordenador do curso de farmácia da Universidade Positivo - campus Londrina"
+    },
+    {
+      "img": "/speaker-placeholder.jpeg",
+      "name": "Ana Júlia Moreira",
+      "resume": "Discente do curso de farmácia da Universidade Positivo - campus Londrina"
+    },
+    {
+      "img": "/speaker-placeholder.jpeg",
+      "name": "Isabela Rosa Zarpellon",
+      "resume": "Discente do curso de farmácia da Universidade Positivo - campus Londrina"
+    }
+  ]
+}
