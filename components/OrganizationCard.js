@@ -7,7 +7,7 @@ export function OrganizationCard({member}) {
         <img src={img} className="w-full h-full"/>
       </div>
       <h4 className="font-sans text-xl font-bold text-center text-theme-black">{name}</h4>
-      <p className="font-sans text-base font-normal text-theme-black">{resume}</p>
+      <p className="font-sans text-base font-normal text-center text-theme-black">{resume}</p>
     </div>
   )
 }

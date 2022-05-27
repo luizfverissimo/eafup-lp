@@ -12,10 +12,10 @@ export function Navbar() {
         </a>
       </Link>
       <div className='flex items-center justify-center gap-6 text-lg'>
-        <a href="#events" className='transition-all cursor-pointer hover:text-theme-green hover:brightness-110'>Programação</a>
-        <a href="#speakers" className='transition-all cursor-pointer hover:text-theme-green hover:brightness-110'>Palestrantes</a>
-        <a href="#certificates" className='transition-all cursor-pointer hover:text-theme-green hover:brightness-110'>Certificados</a>
-        <a href="#organization" className='transition-all cursor-pointer hover:text-theme-green hover:brightness-110'>Organização</a>
+        <a href="#events" className='hidden transition-all cursor-pointer lg:block hover:text-theme-green hover:brightness-110'>Programação</a>
+        <a href="#speakers" className='hidden transition-all cursor-pointer lg:block hover:text-theme-green hover:brightness-110'>Palestrantes</a>
+        <a href="#certificates" className='hidden transition-all cursor-pointer lg:block hover:text-theme-green hover:brightness-110'>Certificados</a>
+        <a href="#organization" className='hidden transition-all cursor-pointer lg:block hover:text-theme-green hover:brightness-110'>Organização</a>
         <Button href="#registration">Inscreva-se</Button>
       </div>
     </nav>

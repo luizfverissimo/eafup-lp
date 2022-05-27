@@ -2,6 +2,7 @@ import Head from 'next/head'
 import { Button } from '../components/Button';
 
 import { EventCard } from '../components/EventCard';
+import { Footer } from '../components/Footer';
 import { Hero } from '../components/Hero';
 import { Navbar } from '../components/Navbar';
 import { OrganizationCard } from '../components/OrganizationCard';
@@ -21,7 +22,8 @@ export default function Home() {
     subscriptionLink,
     certificatesLink,
     isCertificatesOpen, 
-    organization
+    organization,
+    organizationEmail
   } = config
 
   return (
@@ -38,12 +40,12 @@ export default function Home() {
     <Section title="Palestrantes" id="speakers">
       {speakers.map((speaker, index) => <SpeakerCard key={index} speaker={speaker} />)}
     </Section>
-    <Section title="Inscrições" id="speakers">
+    <Section title="Inscrições" id="registration">
       <iframe src={subscriptionLink} width="840" height="900" frameBorder="0" marginHeight="0" marginWidth="0">Carregando…</iframe>
     </Section>
     <Section title="Certificados" id="certificates">
       <div className="flex flex-col items-center w-full gap-4">
-        <p className="-mt-16 text-center text-theme-black">
+        <p className="-mt-8 text-center text-theme-black">
           Os certificados de participação serão <br/> disponibilizados no link abaixo após o final do evento
         </p>
         {isCertificatesOpen ? (
@@ -55,7 +57,13 @@ export default function Home() {
     </Section>
     <Section title="Organização" id="organization">
       {organization.map((member, index) => <OrganizationCard key={index} member={member} />)}
+      <div className="flex flex-col items-center w-full">
+        <h4 className="mb-4 font-sans text-2xl font-bold text-center text-theme-black">Entrar em contato <br/> com a organização</h4>
+        <Button href={`mailto:${organizationEmail}`}>{organizationEmail}</Button>
+        <img className="w-[250px] mt-8" src="/pos_logo.png" alt="Logotipo da Universidade Positivo" />
+      </div>
     </Section>
+    <Footer/>
     </>
   )
 }
