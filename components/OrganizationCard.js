@@ -4,7 +4,7 @@ export function OrganizationCard({member}) {
   return (
     <div className="flex flex-col items-center w-full max-w-[300px] gap-4">
       <div className="w-[100px] h-[100px] rounded-full overflow-hidden">
-        <img src={img} className="w-full h-full"/>
+        <img alt={`Foto no membro da organização - ${name}`} src={img} className="w-full h-full"/>
       </div>
       <h4 className="font-sans text-xl font-bold text-center text-theme-black">{name}</h4>
       <p className="font-sans text-base font-normal text-center text-theme-black">{resume}</p>
