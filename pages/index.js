@@ -7,7 +7,7 @@ import { Hero } from '../components/Hero';
 import { Navbar } from '../components/Navbar';
 import { OrganizationCard } from '../components/OrganizationCard';
 import { Section } from '../components/Section';
-import { SpeakerCard } from '../components/speakerCard';
+import { SpeakerCard } from '../components/SpeakerCard';
 
 import config from '../config/config.json'
 

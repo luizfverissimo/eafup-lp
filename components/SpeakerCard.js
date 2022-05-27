@@ -1,4 +1,3 @@
-
 export function SpeakerCard({speaker}) {
   const {img, name, resume} = speaker
   return (
