@@ -39,12 +39,12 @@ export default function Home() {
       <meta name="theme-color" content="#ffffff"></meta>
 
       <meta name="title" content={title}/>
-      <meta name="description" content={`Inscrições até dia ${registerDate} -  Encontro Acadêmico de Farmácia da Universidade Positivo - Campus Londrina. Participe!`}/>
+      <meta name="description" content={`${registerDate} -  Encontro Acadêmico de Farmácia da Universidade Positivo - Campus Londrina. Participe!`}/>
 
       <meta property="og:type" content="website"/>
       <meta property="og:url" content="https://eafup.vercel.app/"/>
       <meta property="og:title" content={title}/>
-      <meta property="og:description" content={`Inscrições até dia ${registerDate} -  Encontro Acadêmico de Farmácia da Universidade Positivo - Campus Londrina. Participe!`}/>
+      <meta property="og:description" content={`${registerDate} -  Encontro Acadêmico de Farmácia da Universidade Positivo - Campus Londrina. Participe!`}/>
       <meta property="og:image" content="https://eafup.vercel.app/meta-img.jpg"/>
 
       <meta property="twitter:card" content="summary_large_image"/>
