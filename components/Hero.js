@@ -11,8 +11,8 @@ export function Hero({eventDate, registerDate}) {
       <h3 className="text-2xl font-bold font-tans text-theme-green" >{registerDate}</h3>
 
       <div className="flex items-center gap-6">
-        <Button>Inscreva-se</Button>
-        <Button isPrimary={false}>Programação</Button>
+        <Button href="#registration">Inscreva-se</Button>
+        <Button href="#events" isPrimary={false}>Programação</Button>
       </div>
     </div>
   </section>

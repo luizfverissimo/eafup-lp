@@ -12,7 +12,7 @@ export function Footer() {
         </a>
       </Link>
       <Link href="/">
-        <a className="font-sans font-bold cursor-pointer text-theme-white">↑ Topo</a>
+        <a className="hidden font-sans font-bold cursor-pointer lg:block text-theme-white">↑ Topo</a>
       </Link>
       <div className='flex items-center justify-center gap-6 text-lg'>
         <Button href="#registration">Inscreva-se</Button>

@@ -11,7 +11,6 @@ import { SpeakerCard } from '../components/SpeakerCard';
 
 import config from '../config/config.json'
 
-
 export default function Home() {
   const {
     title,
@@ -30,6 +29,29 @@ export default function Home() {
     <>
     <Head>
       <title>{title}</title>
+
+      <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"/>
+      <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png"/>
+      <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"/>
+      <link rel="manifest" href="/site.webmanifest"/>
+      <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"/>
+      <meta name="msapplication-TileColor" content="#ffc40d"/>
+      <meta name="theme-color" content="#ffffff"></meta>
+
+      <meta name="title" content={title}/>
+      <meta name="description" content={`Inscrições até dia ${registerDate} -  Encontro Acadêmico de Farmácia da Universidade Positivo - Campus Londrina. Participe!`}/>
+
+      <meta property="og:type" content="website"/>
+      <meta property="og:url" content="https://eafup.vercel.app/"/>
+      <meta property="og:title" content={title}/>
+      <meta property="og:description" content={`Inscrições até dia ${registerDate} -  Encontro Acadêmico de Farmácia da Universidade Positivo - Campus Londrina. Participe!`}/>
+      <meta property="og:image" content="https://eafup.vercel.app/meta-img.jpg"/>
+
+      <meta property="twitter:card" content="summary_large_image"/>
+      <meta property="twitter:url" content="https://eafup.vercel.app/"/>
+      <meta property="twitter:title" content={title}/>
+      <meta property="twitter:description" content="Inscrições até dia XX/XX -  Encontro Acadêmico de Farmácia da Universidade Positivo - Campus Londrina. Participe!"/>
+      <meta property="twitter:image" content="https://eafup.vercel.app/meta-img.jpg"></meta>
     </Head>
     <Navbar/>
 
