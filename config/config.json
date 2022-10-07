@@ -1,8 +1,8 @@
 {
   "title": "EAFUP 2022",
-  "eventDate": "Dias 13 e 14 de outubro de 2022",
-  "registerDate": "Inscrições até dia 07/10",
-  "subscriptionLink": "https://docs.google.com/forms/d/e/1FAIpQLSdOvVMD0v_prUhA-1s36YHZvb3OxNj54wQdS-KcpHaW9paEYQ/viewform?embedded=true",
+  "eventDate": "Dia 13 de outubro de 2022",
+  "registerDate": "Inscrições até dia 12/10",
+  "subscriptionLink": "https://docs.google.com/forms/d/e/1FAIpQLSf_zIgy9XNmpdLmWFqU49IpMeN0EOFy-2RsuX45DE1NXQPGSA/viewform?embedded=true",
   "isCertificatesOpen": false,
   "certificatesLink": "https://1drv.ms/u/s!Ah4VKOGMPB8ojfd7tAlVqkDRzjmyoQ?e=QxHUDb",
   "eventAgenda": [
@@ -11,47 +11,27 @@
       "presentations": [
         {
           "hour": "19h",
-          "presentationTitle": "A importância do farmacêutico na produção de medicamentos",
-          "speaker": "Prof. Dr. Fulano de Tal"
+          "presentationTitle": "Atuação do farmacêutico no banco de sangue",
+          "speaker": "Profª Msc. Sandra Regina Quintal Carvalho"
         },
         {
-          "hour": "20h\n30",
-          "presentationTitle": "A importância do farmacêutico na produção de medicamentos",
-          "speaker": "Prof. Dr. Fulano de Tal"
-        },
-        {
-          "hour": "20h\n30",
-          "presentationTitle": "A importância do farmacêutico na produção de medicamentos",
-          "speaker": "Prof. Dr. Fulano de Tal"
-        }
-      ]
-    },
-    {
-      "date": "14 de outubro",
-      "presentations": [
-        {
-          "hour": "19h",
-          "presentationTitle": "A importância do farmacêutico na produção de medicamentos",
-          "speaker": "Prof. Dr. Fulano de Tal"
-        },
-        {
-          "hour": "20h\n30",
-          "presentationTitle": "A importância do farmacêutico na produção de medicamentos",
-          "speaker": "Prof. Dr. Fulano de Tal"
+          "hour": "20h\n50",
+          "presentationTitle": "O pensamento probabilístico na eficácia e segurança de medicamentos",
+          "speaker": "Prof. Dr. André Demambre Bacchi"
         }
       ]
     }
   ],
   "speakers": [
     {
-      "img": "/speaker-placeholder.jpeg",
-      "name": "Prof. Dr. Fulano de Tal",
-      "resume": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tortor nibh pulvinar etiam enim dignissim bibendum. Tincidunt eget sed vel facilisis. Orci nascetur faucibus quam aliquet enim. Facilisi vulputate vestibulum diam ligula mauris urna, metus vel elementum. Blandit tincidunt ut enim, feugiat cursus tellus volutpat ac ut."
+      "img": "/sandra.jpeg",
+      "name": "Profª Msc. Sandra Regina Quintal Carvalho",
+      "resume": "Prof mestre Sandra Regina Quintal Carvalho, farmacêutica bioquímica formada pela UEL, com mestrado em Análises Clínicas pela USP Citomorfologista em hematologia há 30 anos Plantonista Clínica do Hemocentro Regional de Londrina Atual coordenadora do programa de residências em Farmácia- Análises Clínicas do HU/UEL"
     },
     {
-      "img": "/speaker-placeholder.jpeg",
-      "name": "Prof. Dr. Fulano de Tal 2",
-      "resume": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tortor nibh pulvinar etiam enim dignissim bibendum. Tincidunt eget sed vel facilisis. Orci nascetur faucibus quam aliquet enim. Facilisi vulputate vestibulum diam ligula mauris urna, metus vel elementum. Blandit tincidunt ut enim, feugiat cursus tellus volutpat ac ut."
+      "img": "/andre.jpeg",
+      "name": "Prof. Dr. André Demambre Bacchi",
+      "resume": "André Demambre Bacchi é Doutor e Mestre em Ciências Fisiológicas com ênfase em Farmacologia pela Universidade Estadual de Londrina (UEL). É Graduado em Farmácia pela mesma instituição. Desde 2010 atua como docente nas áreas de Farmacologia, Toxicologia e, mais recentemente, também nas áreas de Epidemiologia e Bioestatística. Atualmente é Professor do curso de Medicina da Universidade Federal de Rondonópolis (UFR), na qual coordena o Grupo de Estudos em Medicina Baseada em Evidências e Divulgação Científica. É autor/organizador dos livros 50 Casos Clínicos em Farmacologia, Desafios Toxicológicos: desvendando os casos de óbito das celebridades e do livro infantil Porque sim, não é resposta! Além disso, divulga ciência por meio de podcasts, entre eles Synapsando, Scientia Vulgaris e Scicast, e também pelo seu Instagram (@bacchi.andre) e Twitter (@adbacchi)."
     }
   ],
   "organization": [

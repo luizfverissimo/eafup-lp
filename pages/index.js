@@ -63,7 +63,7 @@ export default function Home() {
       {speakers.map((speaker, index) => <SpeakerCard key={index} speaker={speaker} />)}
     </Section>
     <Section title="Inscrições" id="registration">
-      <iframe src={subscriptionLink} width="840" height="900" frameBorder="0" marginHeight="0" marginWidth="0">Carregando…</iframe>
+      <iframe src={subscriptionLink} width="840" height="650" frameBorder="0" marginHeight="0" marginWidth="0">Carregando…</iframe>
     </Section>
     <Section title="Certificados" id="certificates">
       <div className="flex flex-col items-center w-full gap-4">
